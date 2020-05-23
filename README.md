@@ -1,4 +1,4 @@
-# from React ![](https://img.shields.io/npm/v/typescript?color=%23007acc&label=TypeScript&logo=typescript&logoColor=%23007acc&style=social) ![](https://img.shields.io/npm/v/react?color=%2361dafb&label=React&logo=react&logoColor=%2361dafb&style=social)
+# from React Redux ![](https://img.shields.io/npm/v/react-redux?color=%2361dafb&label=React_Redux&logo=Redux&logoColor=%764ABC&style=social)
 
 ```sh
 # in your local development environment

@@ -6,25 +6,30 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:prettier/recommended",
     "prettier/react",
-    "prettier/@typescript-eslint"
+    "prettier/@typescript-eslint",
   ],
-  plugins: [
-    "react-hooks"
-  ],
+  plugins: ["react-hooks"],
   rules: {
-    "@typescript-eslint/explicit-function-return-type": ["error", {
-      "allowTypedFunctionExpressions": true
-    }],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        allowTypedFunctionExpressions: true,
+      },
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { argsIgnorePattern: "^_", varsIgnorePattern: "^ignored?$" },
+    ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
   },
   env: {
     browser: true,
-    node: true
+    node: true,
   },
   settings: {
     react: {
-      version: "detect"
-    }
-  }
-}
+      version: "detect",
+    },
+  },
+};
