@@ -3,6 +3,7 @@
     "config:base"
   ],
   "automerge": true,
+  "requiredStatusChecks": null,
   "vulnerabilityAlerts": {
     "enabled": true
   },
